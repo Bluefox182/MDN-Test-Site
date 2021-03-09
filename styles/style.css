@@ -1,21 +1,42 @@
 html {
   font-size: 12px;
   font-family: "Roboto", sans-serif;
+  /* background-color: steelblue; */
+  background-color: black;
 }
 
 h1 {
+  color: darkturquoise;
   font-size: 60px;
   text-align: center;
 }
 
+h2 {
+  color: whitesmoke;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  background-color: rgb(40, 40, 43);
+  border: 5px solid black;
+}
 p,
 li {
+  color: dodgerblue;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
 
 img {
-  width: 100vh;
-  padding: 0 150px;
+  width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: aquamarine;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
