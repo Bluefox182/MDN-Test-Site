@@ -1,3 +1,21 @@
-p {
-  color: darkorange;
+html {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100vh;
+  padding: 0 150px;
 }
