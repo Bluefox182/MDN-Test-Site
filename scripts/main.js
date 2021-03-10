@@ -14,8 +14,12 @@ let myHeading = document.querySelector("h1");
 
 function setUserName() {
   let myName = prompt("Please enter your name.");
-  localStorage.setItem("name", myName);
-  myHeading.textContent = "Space is Awesome!, " + myName;
+  if (!myName) {
+    setUserName();
+  } else {
+    localStorage.setItem("name", myName);
+    myHeading.textContent = `Space is Awesome!, ${myName}`;
+  }
 }
 
 if (!localStorage.getItem("name")) {
